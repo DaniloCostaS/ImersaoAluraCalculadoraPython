@@ -40,7 +40,7 @@ export default function App() {
             <span aria-hidden="true">·</span>
             <span>Python 3 para Iniciantes</span>
             <span aria-hidden="true">·</span>
-            <span>4 Operações Básicas (+, -, *, /)</span>
+            <span>Operações Aritméticas & Porcentagem (+, -, *, /, %)</span>
           </div>
 
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-slate-900 max-w-3xl" style={{ textWrap: 'balance' }}>

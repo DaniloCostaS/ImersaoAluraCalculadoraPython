@@ -48,7 +48,7 @@ export const CodeViewer: React.FC<CodeViewerProps> = ({ onDownloadScript }) => {
       if (/^[0-9]+(\.[0-9]+)?$/.test(token)) {
         return <span key={index} className="text-amber-300">{token}</span>;
       }
-      if (['+', '-', '*', '/', '==', '!=', '=', '<', '>'].includes(token)) {
+      if (['+', '-', '*', '/', '%', '==', '!=', '=', '<', '>'].includes(token)) {
         return <span key={index} className="text-purple-300">{token}</span>;
       }
       return <span key={index} className="text-slate-200">{token}</span>;

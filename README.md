@@ -12,8 +12,18 @@ Esta aplicação em Python executa as quatro operações matemáticas fundamenta
 - **Subtração (`-`)**: Diferença entre dois valores.
 - **Multiplicação (`*`)**: Produto de dois fatores.
 - **Divisão (`/`)**: Quociente com validação contra divisão por zero (`ZeroDivisionError`).
+- **Porcentagem (`%`)**: Cálculo direto de porcentagem (ex: calcular `15%` de `200` resulta em `30.0`).
 - **Tratamento de Exceções**: Proteção contra digitação de letras ou caracteres inválidos via `try/except ValueError`.
 - **Compatibilidade com decimais**: Suporte completo a números reais através da conversão com `float()`.
+
+---
+
+## 🧪 Testes Automatizados
+
+O projeto inclui uma suíte de testes unitários que valida todas as operações e casos de borda:
+```bash
+python -m unittest test_calculadora.py
+```
 
 ---
 
